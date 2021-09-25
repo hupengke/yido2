@@ -1,0 +1,143 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0;
+    .op{
+        z-index: -100000000;
+        height: 100%;
+        width: 100%;
+    }
+    .text{
+        padding:25px;
+        width: 100%;
+        top: 10%;
+        position: absolute;
+       h1{
+           color: #FFF;
+           font-size: 2.5em;
+       }
+       .mm{
+        border-top: 2px solid white;
+        width: 100%;
+       }
+       .p1{
+        margin-top: 3em;
+        color: #FFF;
+       }
+
+       .dh{
+           font-size: 2em;
+           margin-top: .5em;
+           color: #FFF;
+           span{
+               margin-left: 15px;
+           }
+       }
+       .yj{
+            font-size: 2em;
+            margin-top: .5em;
+            color: #FFF;
+        span{
+            margin-left: 15px;
+        }
+    }
+
+    .dw{
+        font-size: 2em;
+        margin-top: .5em;
+        color: #FFF;
+    span{
+        margin-left: 15px;
+    }
+}
+    .input{
+        margin-top: 1em;
+        background-color: transparent;
+        border: 1px solid white;
+        }
+        .btn{
+            margin-top: .5em;
+        }
+        .p2{
+            color: #fff;
+            text-align: center;
+            margin-top: 2em;
+        }
+    }
+}
+
+@media screen and (max-width:320px){
+    .banner{
+        .op{
+            height: 115%;
+        }
+    } 
+}
+
+@media screen and (min-width:400px){
+    .banner .text .p2{
+        margin-top: 7em;
+    }
+}
+
+@media screen and (min-width:768px){
+    .banner{
+        .text{
+            .p1{
+                font-size: 2em;
+            }
+            .dh{
+                font-size: 3em;
+            }
+            .yj{
+                font-size: 3em;
+            }
+            .dw{
+                font-size: 3em;
+            }
+            .input{
+                width: 30%;
+                height: 30px;
+            }
+            .btn{
+                margin-top: 1.5em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1024px){
+    .banner{
+        .text{
+            h1{
+                font-size: 3.5em;
+            }
+           .p1{
+                font-size: 3em;
+            }
+            .dh{
+                font-size: 4em;
+            }
+            .yj{
+                font-size: 4em;
+            }
+            .dw{
+                font-size: 4em;
+            }
+            .input{
+                width: 30%;
+                height: 40px;
+            }
+            .p2{
+                margin-top:9em;
+                font-size: 1.5em;
+            }
+        }
+    }
+
+}

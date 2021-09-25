@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0;
+    .op{
+        z-index: -100000000;
+        height: 100%;
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+        position: absolute;
+        top: 15%;
+        margin-top: 25%;
+        text-align: center;
+        padding: 2em;
+        h1{
+            font-size: 4em;
+            color: #fff;
+        }
+        p{
+            color: #ffffff;
+            font-size: 1.5em;
+        }
+    }
+    .tp{
+        position: absolute;
+        color: #c57e7d;
+        background: white;
+        border-radius: 50%;
+        padding: 12px 15px 8px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        bottom: 15%;
+        left: 38%;
+    }
+}
+
+@media screen and (min-width:760px){
+    .banner{
+        .text{
+            h1{
+                font-size: 6em;
+            }
+            p{
+                font-size: 2em;
+            }
+        }
+        .tp{
+            left: 45%;
+        }
+    }
+}

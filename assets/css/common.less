@@ -1,0 +1,27 @@
+.header{
+    position: absolute;
+    width: 100%;
+    z-index: 1000000;
+    .navbar-default{
+        background-color:transparent;
+        border-color: transparent;
+    }
+    .logo{
+        a{
+            color: #fff;
+        }
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border: transparent;
+        text-align: right;
+        background-color: #fff;
+    }
+}
+
+@media screen and (min-width:760px){
+    .header{
+        .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+            background-color: transparent;
+        }
+    }
+}
